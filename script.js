@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const passwordInput = document.getElementById("password")
 
 
-  form.addEventListener('submit', (event) => {
+  form.addEventListener('submit', function(event) {
     event.preventDefault()
 
     const username = usernameInput.value.trim()
